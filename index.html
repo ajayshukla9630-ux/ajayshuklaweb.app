@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fashion point - Premium Online Shop</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        rel="stylesheet"
+    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    />
     <style>
         * {
             margin: 0;
@@ -85,6 +91,11 @@
             display: flex;
             align-items: center;
             gap: 10px;
+        }
+
+        /* यहाँ "Meri Dukaan" को "Fashion Point" में बदला गया है */
+        .logo span {
+            font-weight: 700;
         }
 
         .menu-toggle {
@@ -492,8 +503,14 @@
         }
 
         @keyframes pulse-border {
-            0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.5), inset 0 0 20px rgba(99, 102, 241, 0.2); }
-            50% { box-shadow: 0 0 40px rgba(99, 102, 241, 0.8), inset 0 0 30px rgba(99, 102, 241, 0.4); }
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(99, 102, 241, 0.5),
+                    inset 0 0 20px rgba(99, 102, 241, 0.2);
+            }
+            50% {
+                box-shadow: 0 0 40px rgba(99, 102, 241, 0.8),
+                    inset 0 0 30px rgba(99, 102, 241, 0.4);
+            }
         }
 
         .category-card.electronics .category-info {
@@ -529,8 +546,14 @@
         }
 
         @keyframes sparkle {
-            0%, 100% { transform: scale(0); opacity: 0; }
-            50% { transform: scale(1); opacity: 1; }
+            0%, 100% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1);
+                opacity: 1;
+            }
         }
 
         /* Products */
@@ -945,6 +968,11 @@
             -webkit-text-fill-color: white;
         }
 
+        /* यहाँ "Meri Dukaan" को "Fashion Point" में बदला गया है */
+        .footer-brand .logo span {
+            font-weight: 700;
+        }
+
         .footer-brand p {
             color: rgba(255,255,255,0.7);
             margin-bottom: 25px;
@@ -959,7 +987,7 @@
         .social-links a {
             width: 45px;
             height: 45px;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -1020,7 +1048,7 @@
             font-size: 24px;
         }
 
-        /* Mobile Responsive */
+        /* Responsive Styles */
         @media (max-width: 1024px) {
             .hero-content {
                 grid-template-columns: 1fr;
@@ -1075,7 +1103,7 @@
                 padding: 100px 40px;
                 gap: 25px;
                 transition: left 0.3s;
-                box-shadow: 10px 0 30px rgba(0,0,0,0.1);
+                box-shadow: 10px 0 30px rgba(0, 0, 0, 0.1);
             }
 
             nav.active {
@@ -1170,14 +1198,21 @@
             animation: fadeInUp 0.6s ease forwards;
         }
 
-        .delay-1 { animation-delay: 0.1s; }
-        .delay-2 { animation-delay: 0.2s; }
-        .delay-3 { animation-delay: 0.3s; }
-        .delay-4 { animation-delay: 0.4s; }
+        .delay-1 {
+            animation-delay: 0.1s;
+        }
+        .delay-2 {
+            animation-delay: 0.2s;
+        }
+        .delay-3 {
+            animation-delay: 0.3s;
+        }
+        .delay-4 {
+            animation-delay: 0.4s;
+        }
     </style>
 </head>
 <body>
-
     <!-- Header -->
     <header>
         <div class="header-top">
@@ -1185,7 +1220,7 @@
         </div>
         <div class="header-main">
             <div class="logo">
-                <i class="fas fa-shopping-bag"></i> Meri Dukaan
+                <i class="fas fa-shopping-bag"></i> <span>Fashion Point</span>
             </div>
             <div class="menu-toggle" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
@@ -1208,7 +1243,6 @@
     </header>
 
     <main>
-
         <!-- Hero Section -->
         <section class="hero" id="home">
             <div class="hero-content">
@@ -1225,7 +1259,7 @@
                     </div>
                 </div>
                 <div class="hero-image animate delay-2">
-                    <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800" alt="Shopping">
+                    <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800" alt="Shopping" />
                 </div>
             </div>
         </section>
@@ -1262,7 +1296,7 @@
                 <!-- Electronics Category with Special Effects -->
                 <div class="category-card electronics animate">
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Electronics">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Electronics" />
                         <div class="tech-overlay"></div>
                         <div class="sparkle" style="top: 20%; left: 20%; animation-delay: 0s;"></div>
                         <div class="sparkle" style="top: 60%; left: 70%; animation-delay: 1s;"></div>
@@ -1275,21 +1309,21 @@
                 </div>
 
                 <div class="category-card animate delay-1">
-                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="Fashion">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="Fashion" />
                     <div class="category-info">
                         <h3>Fashion</h3>
                         <p>5,000+ Products</p>
                     </div>
                 </div>
                 <div class="category-card animate delay-2">
-                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400" alt="Home">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400" alt="Home" />
                     <div class="category-info">
                         <h3>Home & Living</h3>
                         <p>3,200+ Products</p>
                     </div>
                 </div>
                 <div class="category-card animate delay-3">
-                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400" alt="Sports">
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400" alt="Sports" />
                     <div class="category-info">
                         <h3>Sports</h3>
                         <p>1,800+ Products</p>
@@ -1305,18 +1339,24 @@
                 <p>Handpicked selection of our best-selling items with exclusive discounts</p>
             </div>
             <div class="product-grid">
-                
+                <!-- Product 1 -->
                 <div class="product-card animate">
                     <span class="product-badge">-37%</span>
                     <div class="product-wishlist"><i class="far fa-heart"></i></div>
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones" />
                     </div>
                     <div class="product-info">
                         <div class="product-brand">AudioTech</div>
                         <h3 class="product-title">Premium Wireless Headphones</h3>
                         <div class="product-rating">
-                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                            <span class="stars"
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star-half-alt"></i></span
+                            >
                             <span style="color: var(--gray); font-size: 14px;">(4.8)</span>
                         </div>
                         <div class="product-price-box">
@@ -1328,18 +1368,24 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Product 2 -->
                 <div class="product-card animate delay-1">
                     <span class="product-badge">-28%</span>
                     <div class="product-wishlist"><i class="far fa-heart"></i></div>
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Watch">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Watch" />
                     </div>
                     <div class="product-info">
                         <div class="product-brand">SmartGear</div>
                         <h3 class="product-title">Smart Watch Pro Series</h3>
                         <div class="product-rating">
-                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="stars"
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i></span
+                            >
                             <span style="color: var(--gray); font-size: 14px;">(5.0)</span>
                         </div>
                         <div class="product-price-box">
@@ -1351,18 +1397,24 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Product 3 -->
                 <div class="product-card animate delay-2">
                     <span class="product-badge">-35%</span>
                     <div class="product-wishlist"><i class="far fa-heart"></i></div>
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400" alt="Shirt">
+                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400" alt="Shirt" />
                     </div>
                     <div class="product-info">
                         <div class="product-brand">FashionHub</div>
                         <h3 class="product-title">Men's Casual Cotton Shirt</h3>
                         <div class="product-rating">
-                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="stars"
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="far fa-star"></i></span
+                            >
                             <span style="color: var(--gray); font-size: 14px;">(4.2)</span>
                         </div>
                         <div class="product-price-box">
@@ -1374,18 +1426,24 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Product 4 -->
                 <div class="product-card animate delay-3">
                     <span class="product-badge">-40%</span>
                     <div class="product-wishlist"><i class="far fa-heart"></i></div>
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400" alt="Lamp">
+                        <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400" alt="Lamp" />
                     </div>
                     <div class="product-info">
                         <div class="product-brand">HomeStyle</div>
                         <h3 class="product-title">Designer LED Table Lamp</h3>
                         <div class="product-rating">
-                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                            <span class="stars"
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i
+                                ><i class="fas fa-star-half-alt"></i></span
+                            >
                             <span style="color: var(--gray); font-size: 14px;">(4.7)</span>
                         </div>
                         <div class="product-price-box">
@@ -1397,7 +1455,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -1453,7 +1510,7 @@
                 <a href="#" class="btn btn-white">View All Deals</a>
             </div>
             <div class="deals-image animate delay-2">
-                <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600" alt="Deals">
+                <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600" alt="Deals" />
             </div>
         </section>
 
@@ -1464,39 +1521,72 @@
                 <p>See what our customers say about their shopping experience</p>
             </div>
             <div class="testimonial-grid">
+                <!-- Review 1 -->
                 <div class="testimonial-card animate">
                     <div class="testimonial-stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Amazing quality products and super fast delivery! The customer service team was very helpful. Highly recommended!"</p>
+                    <p class="testimonial-text"
+                        >"Amazing quality products and super fast delivery! The customer service team was very helpful. Highly recommended!"</p
+                    >
                     <div class="testimonial-author">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" class="author-avatar">
+                        <img
+                            src="https://randomuser.me/api/portraits/men/32.jpg"
+                            alt="User"
+                            class="author-avatar"
+                        />
                         <div class="author-info">
                             <h4>Rahul Sharma</h4>
                             <p>Delhi, India</p>
                         </div>
                     </div>
                 </div>
+                <!-- Review 2 -->
                 <div class="testimonial-card animate delay-1">
                     <div class="testimonial-stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star-half-alt"></i>
                     </div>
-                    <p class="testimonial-text">"Best online shopping experience ever! Great prices, genuine products, and easy returns. Will definitely shop again."</p>
+                    <p class="testimonial-text"
+                        >"Best online shopping experience ever! Great prices, genuine products, and easy returns. Will definitely shop again."</p
+                    >
                     <div class="testimonial-author">
-                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="author-avatar">
+                        <img
+                            src="https://randomuser.me/api/portraits/women/44.jpg"
+                            alt="User"
+                            class="author-avatar"
+                        />
                         <div class="author-info">
                             <h4>Priya Patel</h4>
                             <p>Mumbai, India</p>
                         </div>
                     </div>
                 </div>
+                <!-- Review 3 -->
                 <div class="testimonial-card animate delay-2">
                     <div class="testimonial-stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"I save so much money shopping here! The flash sales are incredible. Product quality exceeded my expectations."</p>
+                    <p class="testimonial-text"
+                        >"I save so much money shopping here! The flash sales are incredible. Product quality exceeded my expectations."</p
+                    >
                     <div class="testimonial-author">
-                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User" class="author-avatar">
+                        <img
+                            src="https://randomuser.me/api/portraits/men/75.jpg"
+                            alt="User"
+                            class="author-avatar"
+                        />
                         <div class="author-info">
                             <h4>Amit Kumar</h4>
                             <p>Bangalore, India</p>
@@ -1509,21 +1599,34 @@
         <!-- Newsletter -->
         <section class="newsletter" id="contact">
             <h2 class="animate">Subscribe to Our Newsletter</h2>
-            <p class="animate delay-1">Get the latest deals and updates delivered straight to your inbox</p>
+            <p class="animate delay-1"
+                >Get the latest deals and updates delivered straight to your inbox</p
+            >
             <form class="newsletter-form animate delay-2">
-                <input type="email" placeholder="Enter your email address" required>
-                <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required
+                />
+                <button type="submit">
+                    Subscribe <i class="fas fa-paper-plane"></i>
+                </button>
             </form>
         </section>
-
     </main>
 
     <!-- Footer -->
     <footer>
         <div class="footer-grid">
             <div class="footer-brand">
-                <div class="logo"><i class="fas fa-shopping-bag"></i> Meri Dukaan</div>
-                <p>Your trusted online shopping destination since 2020. We bring you quality products at affordable prices with exceptional service.</p>
+                <div class="logo">
+                    <i class="fas fa-shopping-bag"></i> <span>Fashion Point</span>
+                </div>
+                <p>
+                    Your trusted online shopping destination since 2020.
+                    We bring you quality products at affordable prices with
+                    exceptional service.
+                </p>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -1562,7 +1665,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Meri Dukaan. All Rights Reserved.</p>
+            <p>&copy; 2026 Fashion Point. All Rights Reserved.</p>
             <div class="payment-methods">
                 <i class="fab fa-cc-visa"></i>
                 <i class="fab fa-cc-mastercard"></i>
@@ -1579,7 +1682,7 @@
         }
 
         // Close menu when clicking on a link
-        document.querySelectorAll('nav a').forEach(link => {
+        document.querySelectorAll('nav a').forEach((link) => {
             link.addEventListener('click', () => {
                 document.getElementById('navbar').classList.remove('active');
             });
@@ -1588,22 +1691,22 @@
         // Scroll Animation
         const observerOptions = {
             threshold: 0.1,
-            rootMargin: "0px 0px -50px 0px"
+            rootMargin: '0px 0px -50px 0px',
         };
 
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
+        const observer = new IntersectionObserver(function (entries) {
+            entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-                    entry.target.style.opacity = "1";
-                    entry.target.style.transform = "translateY(0)";
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
                 }
             });
         }, observerOptions);
 
         document.querySelectorAll('.animate').forEach((el) => {
-            el.style.opacity = "0";
-            el.style.transform = "translateY(30px)";
-            el.style.transition = "all 0.6s ease";
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
             observer.observe(el);
         });
 
@@ -1612,24 +1715,32 @@
             const now = new Date();
             const endOfDay = new Date();
             endOfDay.setHours(23, 59, 59, 999);
-            
+
             const diff = endOfDay - now;
-            
+
             const hours = Math.floor(diff / (1000 * 60 * 60));
-            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const minutes = Math.floor(
+                (diff % (1000 * 60 * 60)) / (1000 * 60)
+            );
             const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-            
-            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+
+            document.getElementById('hours').textContent = hours
+                .toString()
+                .padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes
+                .toString()
+                .padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds
+                .toString()
+                .padStart(2, '0');
         }
 
         setInterval(updateCountdown, 1000);
         updateCountdown();
 
         // Add to Cart Animation
-        document.querySelectorAll('.add-to-cart').forEach(btn => {
-            btn.addEventListener('click', function() {
+        document.querySelectorAll('.add-to-cart').forEach((btn) => {
+            btn.addEventListener('click', function () {
                 this.innerHTML = '<i class="fas fa-check"></i>';
                 this.style.background = '#10b981';
                 setTimeout(() => {
@@ -1640,8 +1751,8 @@
         });
 
         // Wishlist Toggle
-        document.querySelectorAll('.product-wishlist').forEach(btn => {
-            btn.addEventListener('click', function() {
+        document.querySelectorAll('.product-wishlist').forEach((btn) => {
+            btn.addEventListener('click', function () {
                 const icon = this.querySelector('i');
                 if (icon.classList.contains('far')) {
                     icon.classList.remove('far');
@@ -1658,14 +1769,14 @@
         });
 
         // Smooth Scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
-                        block: 'start'
+                        block: 'start',
                     });
                 }
             });
@@ -1681,6 +1792,5 @@
             }
         });
     </script>
-
 </body>
 </html>
